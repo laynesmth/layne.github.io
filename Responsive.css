@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: "League Gothic";
+	src: url('leaguegothic-regular-webfont.ttf'), format('truetype')
+}
+body {
+	background: white;
+	font: 19px/20px Courier, Sans-Serif;
+	color: black;
+	margin: 0;
+
+}
+#wholepage {
+	max-width: 81.5%;
+	margin: 0 7.2% 0 11.3%;
+}
+h1 {
+	text-align: left;
+	font-size: 250%;
+	line-height: 120%;
+	padding: 5% 0;
+	font-family: "league-gothic",Courier, Sans-Serif;
+}
+p {
+	
+}
+.current{
+	text-decoration: line-through;
+}
+
+.content {position: relative;
+	top: 280px;
+}
+.about {
+	max-width: 71%;
+	float: right;
+	padding: 0 0 71px;
+	font-size: 19px;
+	line-height: 30.5px;
+}
+
+
+h5 {
+	max-width: 71%;
+	clear: both;
+	background-color: white;
+	height: 50px;
+}
+a {
+	color: black;
+	text-decoration:none;
+	font-weight: normal;
+
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+header {position: fixed;
+	background-color: white;
+	width: 1043px;
+	height: 50px;
+	z-index: 100;
+	
+}
+#logo {
+	font-size: 15px;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 20px;
+	padding: 25px 0 0 0;
+}
+nav {position: fixed;
+	
+	font-size: 15px;
+	left: 46.8%;
+	padding: 25px 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 0 0 60px;
+	
+}
+.header {position: fixed;
+	top: 150px;
+
+}
+.slidernumber {position: fixed;
+	top: 220px;
+	left: 28%;
+	max-width: 53.2%
+	height: auto;
+	width: auto;
+	
+}
+.slider {position: fixed;
+	top: 230px;
+	left: 32%;
+	max-width: 53.2%
+	height: auto;
+	width: auto;
+	z-index: 100;
+}
+.slider-2 {position: fixed;
+	top: 230px;
+	left: 25.7%;
+	max-width: 53.2%
+	height: auto;
+	width: auto;
+	z-index: 100;
+}
+.slider-3 {position: fixed;
+	top: 230px;
+	left: 25.7%;
+	max-width: 53.2%
+	height: auto;
+	width: auto;
+	z-index: 100;
+}
+.header-one {position: fixed;
+	top: 206px;
+}
+.link {
+	color: black;
+	text-decoration:none;
+	font-weight: bold;
+
+}
+
+/*--------WORK-------*/
+
+.work {position: fixed;
+	max-width: 22.2%;
+	font-size: 14px;
+
+}
+
+.work-images {position: relative;
+	left: 46.8%;
+	text-align: center;
+	max-width: 53.2%;
+	height: auto;
+	width: auto;
+	padding: 0 0 15px;
+}
+
+.vimeo {position: relative;
+	left: 46.8%;
+	max-width: 53.2%;
+}
+
+
+
+/*--------CONTACT--------*/
+
+#form-wrap { position: relative;
+	left: 22%;
+	top: 280px;
+	max-width: 60%;
+	border: none;
+	background-color: none;
+	font-size: 14px;
+}
+form {
+	background-color: none;
+}
+label {
+	display: block;
+	
+}
+input {
+	font-size: 16px;
+	background-color: white;
+	border: .5px solid #626366;
+	max-width: 600px;
+	width: 100%;
+	height: 35px;
+	margin: 0 0 15px;
+	padding: 5px 10px 5px 10px;
+}
+textarea {
+	font-size: 16px;
+	background-color: white;
+	border: .5px solid #626366;
+	max-width: 600px;
+	width: 100%;
+	height: 100px;
+	margin: 0 0 15px;
+	padding: 10px 10px 5px 10px;
+}
+.btn{
+	font-family: Courier;
+	color: white;
+	width: 150px;
+	background-color: black;
+	margin-bottom: 60px;
+}
+
+
+
+/*--------FOOTER---------*/
+
+
+footer {
+	width: 100%;
+	padding: 60px 0px;
+}
+.copyright {position: fixed;
+	font-size: 12px;
+	left: 11.3%;
+	bottom: 10px;
+
+}
+.social-media { position: fixed;
+	right: 7.2%;
+	bottom: 10px;
+	z-index: 100;
+}
+.insta {
+	padding-left: 10px;
+}
